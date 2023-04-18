@@ -177,6 +177,22 @@ const Cars = () => {
                                     </div>
                                 </Link>
                             </div>
+                            <div className='item caritem' data-dot="<span>06</span>">
+                                <Link to={'/allcars/' + 'rollsroyce'} >
+                                    <div className='carnumbercategory'>
+                                        <h1>10</h1>
+                                    </div>
+                                    <div className='carcontent'>
+                                        <div className='carscategory'>
+                                            <h1 className='slidercontenthead'>ROLLS ROYCE</h1>
+                                            <p className='slidercontentpara'>After building a technological masterpiece – the world's first carbon fibre road car, the world's fastest production car, and the fastest naturally aspirated road car ever built, McLaren took off as an elite car brand. </p>
+                                        </div>
+                                        <div className='carbox'>
+                                            <img src={'./images/rrhome.jpg'} alt="cars" />
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
                         </OwlCarousel>
                     </div>
                 </section>

@@ -200,6 +200,10 @@ const Mainnav = () => {
       setSidetitle('PORSCHE')
       grid.style.borderLeft = '1px solid white';
     }
+    if (mainuri.includes("rollsroyce")){
+      setSidetitle('ROLLS ROYCE')
+      grid.style.borderLeft = '1px solid white';
+    }
    
     // try {
     else {
@@ -328,6 +332,7 @@ const Mainnav = () => {
             <li className="" onClick={closecollectionnav}><Link to={'/allcars/mclaren'} className="text-decoration-none" onMouseOver={() => setBgimg(process.env.PUBLIC_URL + '/images/mclaren.jpg')} onMouseOut={() => setBgimg(process.env.PUBLIC_URL + '/images/collection2.jpg')}>MCLAREN</Link></li>
             <li className="" onClick={closecollectionnav}><Link to={'/allcars/mercedes'} className="text-decoration-none" onMouseOver={() => setBgimg(process.env.PUBLIC_URL + '/images/mercedes.jpg')} onMouseOut={() => setBgimg(process.env.PUBLIC_URL + '/images/collection2.jpg')}>MERCEDES</Link></li>
             <li className="" onClick={closecollectionnav}><Link to={'/allcars/porsche'} className="text-decoration-none" onMouseOver={() => setBgimg(process.env.PUBLIC_URL + '/images/porsche.jpg')} onMouseOut={() => setBgimg(process.env.PUBLIC_URL + '/images/collection2.jpg')}>PORSCHE</Link></li>
+            <li className="" onClick={closecollectionnav}><Link to={'/allcars/rollsroyce'} className="text-decoration-none" onMouseOver={() => setBgimg(process.env.PUBLIC_URL + '/images/rollyroyce.jpg')} onMouseOut={() => setBgimg(process.env.PUBLIC_URL + '/images/collection2.jpg')}>ROLLS ROYCE</Link></li>
             <hr className="h-color mx-2" />
           </ul>
           <div className='termsncondition'>

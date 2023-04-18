@@ -161,6 +161,20 @@ const Home = () => {
                 <Link to={'/allcars/' + 'mercedes'}><Button variant="outline-secondary" className="booknow">Let Me Choose<span className='submit'><IoIosArrowForward /></span></Button></Link>
               </div>
             </div>
+
+            <div className='item'>
+              <img src={'./images/rrhome.jpg'} alt="cars" className='landingcars' />
+              <div className='landingcarsoverlay'></div>
+              <div className='videocontet videosectioncontent'>
+                <h1 className='slidercontenthead'>ROLLS ROYCE</h1>
+                <p className='slidercontentpara'>
+                Rolls Royce - a name synonymous with excellence, craftsmanship, and sophistication. The sheer elegance and opulence of their vehicles are unmatched. 
+                  <br /><br />
+                  Experience an unparallelled experience of luxury and prestige by driving a sumptuous Rolls Royce.
+                </p>
+                <Link to={'/allcars/' + 'rollsroyce'}><Button variant="outline-secondary" className="booknow">Let Me Choose<span className='submit'><IoIosArrowForward /></span></Button></Link>
+              </div>
+            </div>
           </OwlCarousel>
         </section>
       </motion.div>

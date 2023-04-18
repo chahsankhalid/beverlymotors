@@ -865,7 +865,7 @@ p {
   /* width: 50%; */
 }
 
-#carscontent {
+.carscontent {
   height: 90vh;
   position: relative;
   color: #cbcbcb;
@@ -1180,7 +1180,7 @@ p {
     margin-top: 0;
   }
 
-  #carscontent {
+  .carscontent {
     height: auto;
   }
 
