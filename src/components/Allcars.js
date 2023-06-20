@@ -7,7 +7,6 @@ import { Pagetitle } from './Pagetitle';
 
 const Allcars = () => {
     Pagetitle('All Cars')
-
     const navigate = useNavigate();
 
     const [cars, setCars] = useState();
@@ -26,6 +25,7 @@ const Allcars = () => {
     }
 
     useEffect(() => {
+        console.log('pathcheck' , category)
         setCars(category);
     })
 
